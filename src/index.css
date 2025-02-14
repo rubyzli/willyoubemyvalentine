@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: pink;
+}
+
+.popup {
+  width: 300px;
+  background: white;
+  border: 2px solid black;
+  box-shadow: 5px 5px 0px gray;
+  font-family: "MS Sans Serif", sans-serif;
+}
+
+.title-bar {
+  background: navy;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.popup-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.popup-content p {
+  color: black; /* 🔹 Ensure text is black */
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.ok-button,
+.yes-button,
+.no-button {
+  font-size: 14px;
+  margin: 5px;
+  padding: 5px 10px;
+  border: 2px solid black;
+  background: pink;
+  cursor: pointer;
+}
+
+.ok-button:hover,
+.yes-button:hover,
+.no-button:hover {
+  background: darkgray;
+}
+
+.gif {
+  width: 100%;
+  border-radius: 5px;
+}
